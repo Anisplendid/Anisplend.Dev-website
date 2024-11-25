@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+        
+    <title>ANISPLENDID.DEV</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0000F5"><path d="M160-80q-33 0-56.5-23.5T80-160v-440q0-33 23.5-56.5T160-680h200v-120q0-33 23.5-56.5T440-880h80q33 0 56.5 23.5T600-800v120h200q33 0 56.5 23.5T880-600v440q0 33-23.5 56.5T800-80H160Zm0-80h640v-440H600q0 33-23.5 56.5T520-520h-80q-33 0-56.5-23.5T360-600H160v440Zm80-80h240v-18q0-17-9.5-31.5T444-312q-20-9-40.5-13.5T360-330q-23 0-43.5 4.5T276-312q-17 8-26.5 22.5T240-258v18Zm320-60h160v-60H560v60Zm-200-60q25 0 42.5-17.5T420-420q0-25-17.5-42.5T360-480q-25 0-42.5 17.5T300-420q0 25 17.5 42.5T360-360Zm200-60h160v-60H560v60ZM440-600h80v-200h-80v200Zm40 220Z"/></svg> <a href="#">ANISPLENDID.DEV</a> </div>
+        <!-- Checkbox to toggle menu -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+    
+        <!-- Navbar menu -->
+        <ul id="home" class="navbar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#paul">About</a></li>
+            <li><a href="#skills">Services</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+    </nav>
+     
+    <div class="container mt-5 d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card text-center shadow p-4" style="width: 22rem;">
+          <div class="card-body">
+            <h1 class="card-title text-success">HEY!</h1> <hr style="color: aliceblue;">
+            <p class="card-text">
+              Welcome to my services! You're on the right track. <strong>Anisplendid.Dev</strong> is dedicated to offering you its best services.
+            </p>
+            <p class="fw-bold">Would you like to proceed with this action?</p>
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                Yes, Continue</button> 
+          </div>
+        </div>
+      </div>
+    
+  <!-- Button to Open the Modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="border: none; " > <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button></div>
+        <div class="model-header" style="justify-content: center; align-items: center; display: flex; " > <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#EA3323"><path d="m330-288 150-150 150 150 42-42-150-150 150-150-42-42-150 150-150-150-42 42 150 150-150 150 42 42ZM480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-156t86-127Q252-817 325-848.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82-31.5 155T763-197.5q-54 54.5-127 86T480-80Zm0-60q142 0 241-99.5T820-480q0-142-99-241t-241-99q-141 0-240.5 99T140-480q0 141 99.5 240.5T480-140Zm0-340Z"/></svg></div>
+        <div class="modal-header" style="justify-content: center; align-items: center; border-bottom: whitesmoke solid 10px ;"> <h5 class="modal-title" id="loginModalLabel">ACTION FAILED</h5> </div>
+
+        <div class="modal-body">
+            <form action="index.html" method="get">
+             
+            <div class="mb-3" style="justify-content: center; align-items: center; display: flex; ">
+                <h1 style="font-size: 50px; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; "><span style="color: red; font-size: 70px ; font-weight: bold; padding: 0; margin: 0; border: 0; ">O </span> ops <span style="color: red; font-size: 100px; font-weight: bold; flex-direction: column;  ">!</span></h1>
+                
+            </div>
+            <div class="mb-3" style="justify-content: center; align-items: center; display: flex; margin-bottom: 60px;" >
+                <p >Your comment could not be submitted. <br> Please fill in a comment and try again later.</p>
+            </div>
+            <div class="mb-3" style="justify-content: center; align-items: center; display: flex; ">
+            <button type="submit" class="btn btn-primary">GO HOME</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-box" >
+    <footer>
+      <p>&copy; 2024 Made with ❤️ in NG</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </footer>
+  
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
